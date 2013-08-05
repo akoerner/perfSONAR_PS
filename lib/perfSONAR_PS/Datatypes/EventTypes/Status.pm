@@ -27,9 +27,9 @@ There is accessor mutator for every defined  status
 
 use Log::Log4perl qw(get_logger);
 use Class::Accessor;
-use Class::Fields;
+#use Class::Fields;
 use base qw(Class::Accessor Class::Fields);
-use fields qw( success failure operation);
+#use fields qw( success failure operation);
 perfSONAR_PS::Datatypes::EventTypes::Status->mk_accessors( perfSONAR_PS::Datatypes::EventTypes::Status->show_fields( 'Public' ) );
 
 use constant {

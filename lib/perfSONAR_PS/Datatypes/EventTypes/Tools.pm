@@ -27,9 +27,9 @@ There is accessor mutator for every defined Characteristic
 
 use Log::Log4perl qw(get_logger);
 use Class::Accessor;
-use Class::Fields;
+#use Class::Fields;
 use base qw(Class::Accessor Class::Fields);
-use fields qw( snmp pinger traceroute ping owamp bwctl  iperf);
+#use fields qw( snmp pinger traceroute ping owamp bwctl  iperf);
 perfSONAR_PS::Datatypes::EventTypes::Tools->mk_accessors( perfSONAR_PS::Datatypes::EventTypes::Tools->show_fields( 'Public' ) );
 
 use constant {

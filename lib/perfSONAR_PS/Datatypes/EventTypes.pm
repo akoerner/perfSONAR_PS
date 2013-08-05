@@ -29,9 +29,9 @@ use perfSONAR_PS::Datatypes::EventTypes::Characteristics;
 use perfSONAR_PS::Datatypes::EventTypes::Ops;
 use perfSONAR_PS::Datatypes::EventTypes::Status;
 use Class::Accessor;
-use Class::Fields;
+#use Class::Fields;
 use base qw(Class::Accessor Class::Fields);
-use fields qw( tools  characteristics ops status);
+#use fields qw( tools  characteristics ops status);
 perfSONAR_PS::Datatypes::EventTypes->mk_accessors( perfSONAR_PS::Datatypes::EventTypes->show_fields( 'Public' ) );
 
 Readonly::Scalar our $CLASSPATH => "perfSONAR_PS::Datatypes::EventTypes";

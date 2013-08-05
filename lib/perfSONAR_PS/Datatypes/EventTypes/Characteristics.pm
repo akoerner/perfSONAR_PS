@@ -28,9 +28,9 @@ There is accessor mutator for every defined Characteristic
 
     use Log::Log4perl qw(get_logger);
     use Class::Accessor;
-    use Class::Fields;
+    #use Class::Fields;
     use base qw(Class::Accessor Class::Fields);
-    use fields qw(name errors utilization discards pinger minRtt maxRtt medianRtt meanRtt lossPercents duplicates outOfOrder clp iqrIpd meanIpd minIpd maxIpd);
+   # use fields qw(name errors utilization discards pinger minRtt maxRtt medianRtt meanRtt lossPercents duplicates outOfOrder clp iqrIpd meanIpd minIpd maxIpd);
     perfSONAR_PS::Datatypes::EventTypes::Characteristics->mk_accessors( perfSONAR_PS::Datatypes::EventTypes::Characteristics->show_fields( 'Public' ) );
 
     use constant {
