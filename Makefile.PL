@@ -18,12 +18,10 @@ WriteMakefile(
 	"IO::File" => 0,
 	"XML::LibXML" => 0,
 	"LWP::UserAgent" => 0,
-	"Params::Validate" => 0,
-	"Data::Compare" => 0,
+	"Params::Validate" => 0,	
 	"Data::Dumper" => 0,
 	"Error" => 0,
 	"Carp" => 0,
 	"Test::More" => 0,
-	"OSCARS" => 0,
     }
 );
